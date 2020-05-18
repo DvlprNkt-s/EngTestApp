@@ -1,0 +1,51 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_editText"
+            android:hint="Введите Email"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textColor="@android:color/primary_text_dark"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="20sp"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="#788992"
+            app:met_primaryColor="#526168"
+            app:met_singleLineEllipsis="true" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password_editText"
+            android:hint="Введите пароль"
+            android:inputType="textPassword"
+            android:text=""
+            android:textColor="@android:color/primary_text_dark"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="20sp"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="#788992"
+            app:met_primaryColor="#526168"
+            app:met_singleLineEllipsis="true" />
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Запомнить меня "
+            android:layout_marginTop="5dp"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

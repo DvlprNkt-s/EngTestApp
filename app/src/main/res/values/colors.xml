@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBackground">#01579B</color>
+    <color name ="colorBackgroundForAccount">#0091EA</color>
+    <color name="ripple_effect">#DED8D7</color>
+    <color name="sing_in_background">#D1D3D4 </color>
+    <color name="sing_in_stroke">#EDF1F3</color>
+
+
+</resources>
